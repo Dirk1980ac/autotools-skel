@@ -46,7 +46,7 @@ dnl Find and configure required libraries
 dnl ***************************************************************************
 PKG_CHECK_MODULES([PRJNAME], [glib-2.0])
 PKG_CHECK_MODULES([CHECK], [check >= 0.9.4])
-dnl Fürther module checks should go here.
+dnl Further module checks should go here.
 dnl e.g.:
 dnl PKG_CHECK_MODULES([MODNAMENAME], [libs...])
 

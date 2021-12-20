@@ -1,9 +1,10 @@
 AUTOMAKE_OPTIONS = foreign
 
+# Projects ubdirectories
 SUBDIRS = src tests
 
 # DOXYGEN SUPPORT
-include $(top_srcdir)/aminclude.am
+# include $(top_srcdir)/aminclude.am
 
 # Uncomment if you use Intltool
 # INTLTOOL_FILES = intltool-extract.in \
@@ -11,9 +12,9 @@ include $(top_srcdir)/aminclude.am
 #	intltool-update.in
 
 # ensure the distribution of the doxygen configuration file
-EXTRA_DIST = autogen.sh 
+EXTRA_DIST = autogen.sh
 #	$(INTLTOOL_FILES) \
-#	doxygen.cfg 
+#	doxygen.cfg
 
 dist_doc_DATA = \
 	README \
