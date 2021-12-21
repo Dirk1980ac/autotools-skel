@@ -1,11 +1,8 @@
-/**
- * @file test_checksums.c
+/*
+ * tests.c
  *
- * @brief This is the test suite to check if the CRC returned by
- * the calculation functions is correct.
- *
- * @copyright ©2018-2021 - 2020 by Dirk Gottschalk
- * @author Dirk Gottschalk <dirk.gottschalk1980@googlemail.com>
+ * Author: Dirk Gottschalk <dirk.gottschalk1980-2021@googlemail.com>
+ * Created: 2021-12-20
  */
 
 
